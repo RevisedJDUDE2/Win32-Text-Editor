@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/Emachines/Projects/TEXTEDITOR/src/Editor.cpp" "CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj" "gcc" "CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj.d"
   "C:/Users/Emachines/Projects/TEXTEDITOR/src/main.cpp" "CMakeFiles/MinTextEditor.dir/src/main.cpp.obj" "gcc" "CMakeFiles/MinTextEditor.dir/src/main.cpp.obj.d"
   )
 

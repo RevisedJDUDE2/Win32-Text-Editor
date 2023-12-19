@@ -1,5 +1,6 @@
-CMakeFiles/MinTextEditor.dir/src/main.cpp.obj: \
- C:/Users/Emachines/Projects/TEXTEDITOR/src/main.cpp \
+CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj: \
+ C:/Users/Emachines/Projects/TEXTEDITOR/src/Editor.cpp \
+ C:/Users/Emachines/Projects/TEXTEDITOR/include/Editor.hpp \
  C:/msys64/mingw64/include/windows.h C:/msys64/mingw64/include/_mingw.h \
  C:/msys64/mingw64/include/_mingw_mac.h \
  C:/msys64/mingw64/include/_mingw_secapi.h \
@@ -231,5 +232,4 @@ CMakeFiles/MinTextEditor.dir/src/main.cpp.obj: \
  C:/msys64/mingw64/include/commdlg.h C:/msys64/mingw64/include/stralign.h \
  C:/msys64/mingw64/include/sec_api/stralign_s.h \
  C:/msys64/mingw64/include/winsvc.h C:/msys64/mingw64/include/mcx.h \
- C:/msys64/mingw64/include/imm.h \
- C:/Users/Emachines/Projects/TEXTEDITOR/include/Editor.hpp
+ C:/msys64/mingw64/include/imm.h

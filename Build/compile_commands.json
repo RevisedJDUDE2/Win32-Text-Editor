@@ -4,5 +4,11 @@
   "command": "C:/msys64/mingw64/bin/c++.exe  @CMakeFiles/MinTextEditor.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles/MinTextEditor.dir/src/main.cpp.obj -c C:/Users/Emachines/Projects/TEXTEDITOR/src/main.cpp",
   "file": "C:/Users/Emachines/Projects/TEXTEDITOR/src/main.cpp",
   "output": "CMakeFiles/MinTextEditor.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/Emachines/Projects/TEXTEDITOR/Build",
+  "command": "C:/msys64/mingw64/bin/c++.exe  @CMakeFiles/MinTextEditor.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj -c C:/Users/Emachines/Projects/TEXTEDITOR/src/Editor.cpp",
+  "file": "C:/Users/Emachines/Projects/TEXTEDITOR/src/Editor.cpp",
+  "output": "CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj"
 }
 ]
