@@ -1,0 +1,3 @@
+C:/Users/Emachines/Projects/TEXTEDITOR/Build/CMakeFiles/MinTextEditor.dir
+C:/Users/Emachines/Projects/TEXTEDITOR/Build/CMakeFiles/edit_cache.dir
+C:/Users/Emachines/Projects/TEXTEDITOR/Build/CMakeFiles/rebuild_cache.dir
