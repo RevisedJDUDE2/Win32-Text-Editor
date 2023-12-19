@@ -129,6 +129,30 @@ MinTextEditor/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MinTextEditor.dir/build.make CMakeFiles/MinTextEditor.dir/build
 .PHONY : MinTextEditor/fast
 
+src/Editor.obj: src/Editor.cpp.obj
+.PHONY : src/Editor.obj
+
+# target to build an object file
+src/Editor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MinTextEditor.dir/build.make CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj
+.PHONY : src/Editor.cpp.obj
+
+src/Editor.i: src/Editor.cpp.i
+.PHONY : src/Editor.i
+
+# target to preprocess a source file
+src/Editor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MinTextEditor.dir/build.make CMakeFiles/MinTextEditor.dir/src/Editor.cpp.i
+.PHONY : src/Editor.cpp.i
+
+src/Editor.s: src/Editor.cpp.s
+.PHONY : src/Editor.s
+
+# target to generate assembly for a file
+src/Editor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MinTextEditor.dir/build.make CMakeFiles/MinTextEditor.dir/src/Editor.cpp.s
+.PHONY : src/Editor.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MinTextEditor"
+	@echo "... src/Editor.obj"
+	@echo "... src/Editor.i"
+	@echo "... src/Editor.s"
 	@echo "... src/main.obj"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

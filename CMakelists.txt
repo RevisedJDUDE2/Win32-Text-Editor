@@ -5,5 +5,5 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 project(MinTextEditor)
 
-add_executable(MinTextEditor src/main.cpp)
+add_executable(MinTextEditor src/main.cpp src/Editor.cpp)
 target_include_directories(MinTextEditor PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)

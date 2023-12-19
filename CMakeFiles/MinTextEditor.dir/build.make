@@ -84,18 +84,35 @@ CMakeFiles/MinTextEditor.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MinTextEditor.dir/src/main.cpp.s"
 	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Emachines/Projects/TEXTEDITOR/src/main.cpp -o CMakeFiles/MinTextEditor.dir/src/main.cpp.s
 
+CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj: CMakeFiles/MinTextEditor.dir/flags.make
+CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj: CMakeFiles/MinTextEditor.dir/includes_CXX.rsp
+CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj: src/Editor.cpp
+CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj: CMakeFiles/MinTextEditor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Emachines/Projects/TEXTEDITOR/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj -MF CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj.d -o CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj -c C:/Users/Emachines/Projects/TEXTEDITOR/src/Editor.cpp
+
+CMakeFiles/MinTextEditor.dir/src/Editor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/MinTextEditor.dir/src/Editor.cpp.i"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:/Users/Emachines/Projects/TEXTEDITOR/src/Editor.cpp > CMakeFiles/MinTextEditor.dir/src/Editor.cpp.i
+
+CMakeFiles/MinTextEditor.dir/src/Editor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/MinTextEditor.dir/src/Editor.cpp.s"
+	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:/Users/Emachines/Projects/TEXTEDITOR/src/Editor.cpp -o CMakeFiles/MinTextEditor.dir/src/Editor.cpp.s
+
 # Object files for target MinTextEditor
 MinTextEditor_OBJECTS = \
-"CMakeFiles/MinTextEditor.dir/src/main.cpp.obj"
+"CMakeFiles/MinTextEditor.dir/src/main.cpp.obj" \
+"CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj"
 
 # External object files for target MinTextEditor
 MinTextEditor_EXTERNAL_OBJECTS =
 
 MinTextEditor.exe: CMakeFiles/MinTextEditor.dir/src/main.cpp.obj
+MinTextEditor.exe: CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj
 MinTextEditor.exe: CMakeFiles/MinTextEditor.dir/build.make
 MinTextEditor.exe: CMakeFiles/MinTextEditor.dir/linkLibs.rsp
 MinTextEditor.exe: CMakeFiles/MinTextEditor.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Emachines/Projects/TEXTEDITOR/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MinTextEditor.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Emachines/Projects/TEXTEDITOR/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable MinTextEditor.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/MinTextEditor.dir/objects.a
 	C:/msys64/mingw64/bin/ar.exe qc CMakeFiles/MinTextEditor.dir/objects.a @CMakeFiles/MinTextEditor.dir/objects1.rsp
 	C:/msys64/mingw64/bin/c++.exe -Wl,--whole-archive CMakeFiles/MinTextEditor.dir/objects.a -Wl,--no-whole-archive -o MinTextEditor.exe -Wl,--out-implib,libMinTextEditor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/MinTextEditor.dir/linkLibs.rsp

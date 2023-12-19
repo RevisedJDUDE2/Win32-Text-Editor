@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj"
+  "CMakeFiles/MinTextEditor.dir/src/Editor.cpp.obj.d"
   "CMakeFiles/MinTextEditor.dir/src/main.cpp.obj"
   "CMakeFiles/MinTextEditor.dir/src/main.cpp.obj.d"
   "MinTextEditor.exe"
