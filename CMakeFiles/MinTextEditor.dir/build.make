@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = C:/Users/Emachines/Projects/TEXTEDITOR
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:/Users/Emachines/Projects/TEXTEDITOR/Build
+CMAKE_BINARY_DIR = C:/Users/Emachines/Projects/TEXTEDITOR
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MinTextEditor.dir/depend.make
@@ -71,9 +71,9 @@ include CMakeFiles/MinTextEditor.dir/flags.make
 
 CMakeFiles/MinTextEditor.dir/src/main.cpp.obj: CMakeFiles/MinTextEditor.dir/flags.make
 CMakeFiles/MinTextEditor.dir/src/main.cpp.obj: CMakeFiles/MinTextEditor.dir/includes_CXX.rsp
-CMakeFiles/MinTextEditor.dir/src/main.cpp.obj: C:/Users/Emachines/Projects/TEXTEDITOR/src/main.cpp
+CMakeFiles/MinTextEditor.dir/src/main.cpp.obj: src/main.cpp
 CMakeFiles/MinTextEditor.dir/src/main.cpp.obj: CMakeFiles/MinTextEditor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Emachines/Projects/TEXTEDITOR/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MinTextEditor.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:/Users/Emachines/Projects/TEXTEDITOR/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MinTextEditor.dir/src/main.cpp.obj"
 	C:/msys64/mingw64/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MinTextEditor.dir/src/main.cpp.obj -MF CMakeFiles/MinTextEditor.dir/src/main.cpp.obj.d -o CMakeFiles/MinTextEditor.dir/src/main.cpp.obj -c C:/Users/Emachines/Projects/TEXTEDITOR/src/main.cpp
 
 CMakeFiles/MinTextEditor.dir/src/main.cpp.i: cmake_force
@@ -95,7 +95,7 @@ MinTextEditor.exe: CMakeFiles/MinTextEditor.dir/src/main.cpp.obj
 MinTextEditor.exe: CMakeFiles/MinTextEditor.dir/build.make
 MinTextEditor.exe: CMakeFiles/MinTextEditor.dir/linkLibs.rsp
 MinTextEditor.exe: CMakeFiles/MinTextEditor.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Emachines/Projects/TEXTEDITOR/Build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MinTextEditor.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:/Users/Emachines/Projects/TEXTEDITOR/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MinTextEditor.exe"
 	"C:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/MinTextEditor.dir/objects.a
 	C:/msys64/mingw64/bin/ar.exe qc CMakeFiles/MinTextEditor.dir/objects.a @CMakeFiles/MinTextEditor.dir/objects1.rsp
 	C:/msys64/mingw64/bin/c++.exe -Wl,--whole-archive CMakeFiles/MinTextEditor.dir/objects.a -Wl,--no-whole-archive -o MinTextEditor.exe -Wl,--out-implib,libMinTextEditor.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/MinTextEditor.dir/linkLibs.rsp
@@ -109,6 +109,6 @@ CMakeFiles/MinTextEditor.dir/clean:
 .PHONY : CMakeFiles/MinTextEditor.dir/clean
 
 CMakeFiles/MinTextEditor.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/Emachines/Projects/TEXTEDITOR C:/Users/Emachines/Projects/TEXTEDITOR C:/Users/Emachines/Projects/TEXTEDITOR/Build C:/Users/Emachines/Projects/TEXTEDITOR/Build C:/Users/Emachines/Projects/TEXTEDITOR/Build/CMakeFiles/MinTextEditor.dir/DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" C:/Users/Emachines/Projects/TEXTEDITOR C:/Users/Emachines/Projects/TEXTEDITOR C:/Users/Emachines/Projects/TEXTEDITOR C:/Users/Emachines/Projects/TEXTEDITOR C:/Users/Emachines/Projects/TEXTEDITOR/CMakeFiles/MinTextEditor.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/MinTextEditor.dir/depend
 

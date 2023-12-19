@@ -1,6 +1,5 @@
 #include <windows.h>
 
-int main() {
-  MessageBoxA(nullptr, "Hello World\n", "", MB_OK);
+int main(int argc, char* argv[]) {
   return 0;
 }
